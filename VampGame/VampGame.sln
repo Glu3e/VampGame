@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampGame.CSharp.Plugins", "VampGame.CSharp.Plugins.csproj", "{AEFFB9BA-08AC-E242-8337-E27770CD06FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampGame.CSharp", "VampGame.CSharp.csproj", "{019AC24F-7736-0B60-0E16-1ABE4B590BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampGame.CSharp.Editor", "VampGame.CSharp.Editor.csproj", "{6D9985E0-2B62-D5CE-425A-F00476EFCCE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEFFB9BA-08AC-E242-8337-E27770CD06FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFFB9BA-08AC-E242-8337-E27770CD06FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFFB9BA-08AC-E242-8337-E27770CD06FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFFB9BA-08AC-E242-8337-E27770CD06FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019AC24F-7736-0B60-0E16-1ABE4B590BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019AC24F-7736-0B60-0E16-1ABE4B590BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019AC24F-7736-0B60-0E16-1ABE4B590BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019AC24F-7736-0B60-0E16-1ABE4B590BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9985E0-2B62-D5CE-425A-F00476EFCCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9985E0-2B62-D5CE-425A-F00476EFCCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9985E0-2B62-D5CE-425A-F00476EFCCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9985E0-2B62-D5CE-425A-F00476EFCCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
