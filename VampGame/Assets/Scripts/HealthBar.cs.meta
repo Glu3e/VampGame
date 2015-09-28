@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e9c66f5b6530b41f88283db120016b89
+timeCreated: 1443473412
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bar00: {fileID: 2800000, guid: e9ed5be0b75c545f5af3365859cdd64c, type: 3}
+  - bar10: {fileID: 2800000, guid: e0f8acc23e7ea4bf99f99314ab3fafa8, type: 3}
+  - bar20: {fileID: 2800000, guid: b36f5b5dc99284e3cb91f9fe5bf957de, type: 3}
+  - bar30: {fileID: 2800000, guid: 7d9e0ad489b54475dae3e796a3043dca, type: 3}
+  - bar40: {fileID: 2800000, guid: 7789ab5d3a3c34d6ca771d846733ad7d, type: 3}
+  - bar50: {fileID: 2800000, guid: a82b61a268265470d9afd5e29801770e, type: 3}
+  - bar60: {fileID: 2800000, guid: 8112c6d594a3c47a0b677142644f1215, type: 3}
+  - bar70: {fileID: 2800000, guid: 0dd1a9ab850824b6992649bb0c11ca43, type: 3}
+  - bar80: {fileID: 2800000, guid: b25d8b79bd79f4326954a0d58016afeb, type: 3}
+  - bar90: {fileID: 2800000, guid: d29538355d1214a7b90e5bea1ffcce58, type: 3}
+  - bar100: {fileID: 2800000, guid: 70eae5f547f6e4ecfaecc6ea799549a2, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

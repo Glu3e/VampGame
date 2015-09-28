@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9ADA182F-98A2-AE35-5690-43760FABC1B0}") = "VampGame", "Assembly-CSharp-firstpass.csproj", "{DC14BC5B-46F6-C526-7A3B-223C358A55F6}"
+EndProject
+Project("{9ADA182F-98A2-AE35-5690-43760FABC1B0}") = "VampGame", "Assembly-CSharp.csproj", "{11E79D16-B3ED-A789-01E2-2D23D709096B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC14BC5B-46F6-C526-7A3B-223C358A55F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC14BC5B-46F6-C526-7A3B-223C358A55F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC14BC5B-46F6-C526-7A3B-223C358A55F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC14BC5B-46F6-C526-7A3B-223C358A55F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E79D16-B3ED-A789-01E2-2D23D709096B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E79D16-B3ED-A789-01E2-2D23D709096B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E79D16-B3ED-A789-01E2-2D23D709096B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E79D16-B3ED-A789-01E2-2D23D709096B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+												GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
