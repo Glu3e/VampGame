@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: 17524300647e8aa4aa0cf6f74c7de9df
+<<<<<<< HEAD:VampGame/Assets/Prefabs.meta
+guid: a28414f7cc4d1f14c92f5c7829e29864
 folderAsset: yes
-timeCreated: 1443048984
+timeCreated: 1443047985
+=======
+guid: 62238a702df40fa4081784f5ed689ae1
+folderAsset: yes
+timeCreated: 1443048469
+>>>>>>> master:VampGame/Assets/Standard Assets.meta
 licenseType: Free
 DefaultImporter:
   userData: 

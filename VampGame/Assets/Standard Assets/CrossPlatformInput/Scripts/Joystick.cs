@@ -27,6 +27,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		void OnEnable()
 		{
+<<<<<<< HEAD
 			CreateVirtualAxes();
 		}
 
@@ -35,6 +36,12 @@ namespace UnityStandardAssets.CrossPlatformInput
             m_StartPos = transform.position;
         }
 
+=======
+			m_StartPos = transform.position;
+			CreateVirtualAxes();
+		}
+
+>>>>>>> master
 		void UpdateVirtualAxes(Vector3 value)
 		{
 			var delta = m_StartPos - value;

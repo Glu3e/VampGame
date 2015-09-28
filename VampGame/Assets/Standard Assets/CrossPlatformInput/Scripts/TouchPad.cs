@@ -54,6 +54,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 		void OnEnable()
 		{
 			CreateVirtualAxes();
+<<<<<<< HEAD
 		}
 
         void Start()
@@ -63,6 +64,13 @@ namespace UnityStandardAssets.CrossPlatformInput
             m_Center = m_Image.transform.position;
 #endif
         }
+=======
+#if !UNITY_EDITOR
+        m_Image = GetComponent<Image>();
+        m_Center = m_Image.transform.position;
+#endif
+		}
+>>>>>>> master
 
 		void CreateVirtualAxes()
 		{
