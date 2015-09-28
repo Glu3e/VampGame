@@ -31,7 +31,7 @@ public enum FSMState
     private int health;
 
 
-    //Initialize the Finite state machine for the NPC tank
+    //Initialize the Finite state machine for the NPC
     protected override void Initialize()
     {
         curState = FSMState.Patrol;
@@ -88,12 +88,12 @@ public enum FSMState
         }
         //Check the distance with player tank
         //When the distance is near, transition to chase state
-        /*        else if (Vector3.Distance(transform.position, playerTransform.position) <= 300.0f)
+              else if (Vector3.Distance(transform.position, playerTransform.position) <= 30f)
         {
             print("Switch to Chase Position");
             curState = FSMState.Chase;
         }
-        */
+        
         //Rotate to the target point
         Quaternion targetRotation = Quaternion.LookRotation(destPos - transform.position);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * curRotSpeed);
@@ -141,7 +141,7 @@ public enum FSMState
 
         //Check the distance with the player
         float dist = Vector3.Distance(transform.position, playerTransform.position);
-        if (dist >= 200.0f && dist < 300.0f)
+        if (dist >= 20f && dist < 30f)
         {
             //Rotate to the target point
             Quaternion targetRotation = Quaternion.LookRotation(destPos - transform.position);
@@ -153,7 +153,7 @@ public enum FSMState
             curState = FSMState.Attack;
         }
         //Transition to patrol is the player become too far
-        else if (dist >= 300.0f)
+        else if (dist >= 30f)
         {
             curState = FSMState.Patrol;
         }
